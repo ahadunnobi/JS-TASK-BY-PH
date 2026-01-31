@@ -9,5 +9,8 @@ function identifyNumber(number){
         return result;
     }
 }
-const result= identifyNumber(19);
-console.log(result);
+// const result= identifyNumber(19);
+// console.log(result);
+
+const typeOfNumber = number => number % 2 === 1 ? number * 2 : number / 2;
+console.log(typeOfNumber(31));
